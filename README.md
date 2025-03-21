@@ -28,8 +28,8 @@ classDiagram
 
 	class Hotel {
 	    - string nombre
-	    - List<Habitacion> habitaciones
-	    - List<Cliente> clientes
+	    - vector<Habitacion> habitaciones
+	    - vector<Cliente*> clientes
 	    + Hotel(string)
 	    + ~Hotel()
 	    + void agregarHabitacion(int, string)
