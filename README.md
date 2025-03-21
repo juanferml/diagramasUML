@@ -54,9 +54,9 @@ classDiagram
 		- bool disponible
 		+ Auto(string, string)
 		+ ~Auto()
-		+ string getPlaca():const
-		+ string getModelo():const
-		+ bool estaDisponible():const
+		+ string getPlaca()const
+		+ string getModelo()const
+		+ bool estaDisponible()const
 		+ void rentar()
 		+ void devolver()
 	}
@@ -66,7 +66,7 @@ classDiagram
 		- string nombre
 		+ Cliente(int, string)
 		+ ~Cliente()
-		+ int getId():const
+		+ int getId()const
 	}
 
 	class Contrato {
