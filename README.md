@@ -84,8 +84,8 @@ classDiagram
 	}
 
 
-   	 Cliente o-- Contrato
-   	 Auto o-- Contrato
+   	 Cliente --o Contrato
+   	 Auto --o Contrato
  	AgenciaRenta o-- Auto 
 	AgenciaRenta o-- Cliente 
 
