@@ -1,7 +1,7 @@
 # diagramasUML
 
 '''mermaid
-	classDiagram
+classDiagram
 	
 	    class Habitacion {
 	        -int numero
@@ -40,7 +40,7 @@
 	    Hotel *-- Cliente
 '''	
 '''mermaid
-	classDiagram
+classDiagram
 	
 		class Auto {
 			-string placa
