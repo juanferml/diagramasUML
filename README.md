@@ -37,7 +37,7 @@ classDiagram
 	}
 
 	Hotel *-- Habitacion
-	Hotel *-- Cliente
+	Hotel o-- Cliente
 
 ```	
 ```mermaid
