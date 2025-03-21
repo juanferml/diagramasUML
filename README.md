@@ -38,8 +38,8 @@
 	
 	    Hotel *-- Habitacion
 	    Hotel *-- Cliente
-	
-	
+'''	
+'''mermaid
 	classDiagram
 	
 		class Auto {
