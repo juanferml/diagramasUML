@@ -1,6 +1,6 @@
 # diagramasUML
 
-'''mermaid
+```mermaid
 classDiagram
 	
 	class Habitacion {
@@ -39,8 +39,8 @@ classDiagram
 	Hotel *-- Habitacion
 	Hotel *-- Cliente
 
-'''	
-'''mermaid
+```	
+```mermaid
 classDiagram
 	
 	class Auto {
@@ -88,4 +88,4 @@ classDiagram
  	AgenciaRenta *-- Auto 
 	AgenciaRenta *-- Cliente 
 
-'''
+```
