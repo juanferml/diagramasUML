@@ -49,9 +49,9 @@ classDiagram
 		- bool disponible
 		+ Auto(string, string)
 		+ ~Auto()
-		+ string getPlaca()const
-		+ string getModelo()const
-		+ bool estaDisponible()const
+		+ string getPlaca():const
+		+ string getModelo():const
+		+ bool estaDisponible():const
 		+ void rentar()
 		+ void devolver()
 	}
@@ -61,12 +61,12 @@ classDiagram
 		- string nombre
 		+ Cliente(int, string)
 		+ ~Cliente()
-		+ int getId()const
+		+ int getId():const
 	}
 
 	class Contrato {
-		- Cliente*
-		- Auto*
+		- Cliente* cliente
+		- Auto* auto
 		- int dias
 		+ Contrato(Cliente*, Auto*, int)
 		+ ~Contrato()
@@ -74,8 +74,8 @@ classDiagram
 
 	class AgenciaRenta {
 		- string nombre
-		- List<Auto> autos
-		- List<Cliente> clientes
+		- vector<Auto*> autos
+		- vector<Cliente*> clientes
 		+ AgenciaRenta(string)
 		+ ~AgenciaRenta()
 		+ void agregarAuto(Auto)
@@ -83,8 +83,10 @@ classDiagram
 		+ void mostrarInfo()const
 	}
 
-	Cliente o-- Contrato
-	Auto o-- Contrato
+
+   	 Cliente o-- Contrato
+   	 Auto o-- Contrato
  	AgenciaRenta o-- Auto 
 	AgenciaRenta o-- Cliente 
+
 ```
