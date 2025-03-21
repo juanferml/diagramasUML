@@ -83,6 +83,13 @@ classDiagram
 		+ void mostrarInfo()
 	}
 
+	Cliente --> Contrato
+	Auto --> Contrato
+ 	AgenciaRenta o-- Auto 
+	AgenciaRenta o-- Cliente 
+
+	}
+
 	Contrato --> Cliente
 	Contrato --> Auto
  	AgenciaRenta *-- Auto 
