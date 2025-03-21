@@ -88,11 +88,5 @@ classDiagram
  	AgenciaRenta o-- Auto 
 	AgenciaRenta o-- Cliente 
 
-	}
-
-	Contrato --> Cliente
-	Contrato --> Auto
- 	AgenciaRenta *-- Auto 
-	AgenciaRenta *-- Cliente 
 
 ```
