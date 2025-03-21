@@ -65,8 +65,8 @@ classDiagram
 	}
 
 	class Contrato {
-		- Cliente* cliente
-		- Auto* autoRentado
+		- Cliente*
+		- Auto*
 		- int dias
 		+ Contrato(Cliente*, Auto*, int)
 		+ ~Contrato()
@@ -83,8 +83,8 @@ classDiagram
 		+ void mostrarInfo()const
 	}
 
-	Cliente --> Contrato
-	Auto --> Contrato
+	Cliente o-- Contrato
+	Auto o-- Contrato
  	AgenciaRenta o-- Auto 
 	AgenciaRenta o-- Cliente 
 ```
