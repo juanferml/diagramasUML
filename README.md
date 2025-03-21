@@ -1,6 +1,6 @@
 # diagramasUML
 ---------------------------------
-# 1)
+# Programa 1
 ```mermaid
 classDiagram
 	
@@ -43,7 +43,7 @@ classDiagram
 ```
 --------------------------------------------------
 
-# 2)
+# Programa 2
 
 ```mermaid
 classDiagram
