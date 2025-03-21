@@ -39,7 +39,9 @@ classDiagram
 	Hotel *-- Habitacion
 	Hotel o-- Cliente
 
-```	
+```
+--------------------------------------------------
+
 ```mermaid
 classDiagram
 	
