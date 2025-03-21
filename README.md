@@ -92,3 +92,4 @@ classDiagram
 	AgenciaRenta o-- Cliente 
 
 ```
+--------------------------------
