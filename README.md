@@ -1,5 +1,6 @@
 # diagramasUML
 ---------------------------------
+#1)
 ```mermaid
 classDiagram
 	
@@ -41,6 +42,8 @@ classDiagram
 
 ```
 --------------------------------------------------
+
+#2)
 
 ```mermaid
 classDiagram
